@@ -8,4 +8,4 @@
   (5) 翻译结果具有回放功能。  
 ## 2 设计方案
 ### 2.1 App流程
-(https://github.com/stereov/resource/blob/master/HMS%20MLKit/%E6%B5%81%E7%A8%8B.png)
+![app流程](https://github.com/stereov/resource/blob/master/HMS%20MLKit/%E6%B5%81%E7%A8%8B.png)
