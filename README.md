@@ -1,0 +1,2 @@
+# Translation
+HMS MLKit Demo
