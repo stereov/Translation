@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="trans_source_target_padding">10dp</dimen>
+
+    <dimen name="setting_dialog_label_margin_start">5dp</dimen>
+    <dimen name="setting_dialog_radio_margin_start">50dp</dimen>
+
+    <dimen name="result_padding">12dp</dimen>
+    <dimen name="result_inner_padding">5dp</dimen>
+</resources>

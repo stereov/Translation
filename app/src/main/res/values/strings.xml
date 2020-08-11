@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MLKit翻译</string>
+
+    <string name="language_zh">中文</string>
+    <string name="language_en">英文</string>
+
+    <string name="speaker_zh_label">中文发音音色</string>
+    <string name="speaker_en_label">英文发音音色</string>
+    <string name="speak_speed_label">发音速度</string>
+    <string name="speak_volume_label">音量  </string>
+    <string name="speak_speed_init_value">1.0</string>
+    <string name="dialog_exit">退出</string>
+    <string name="dialog_ok">确定</string>
+
+    <string name="male">男</string>
+    <string name="female">女</string>
+</resources>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/trans_source_target_padding">
+
+    <LinearLayout
+        android:id="@+id/item1_linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="3dp">
+
+
+        <TextView
+            android:id="@+id/textView_speaker_zh_label"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/speaker_zh_label"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginStart="@dimen/setting_dialog_label_margin_start"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioGroup
+            android:id="@+id/speaker_zh"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/setting_dialog_radio_margin_start"
+            android:orientation="horizontal"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView_speaker_zh_label"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <RadioButton
+                android:id="@+id/speaker_zh_male"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:checked="true"
+                android:gravity="center"
+                android:text="@string/male"
+
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/speaker_zh_female"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:checked="false"
+                android:layout_gravity="center"
+                android:text="@string/female"
+
+                android:textSize="18sp" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/item2_linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/item1_linearLayout"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="16dp">
+
+
+        <TextView
+            android:id="@+id/textView_speaker_en_label"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/speaker_en_label"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginStart="@dimen/setting_dialog_label_margin_start"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioGroup
+            android:id="@+id/speaker_en"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="@dimen/setting_dialog_radio_margin_start"
+            app:layout_constraintStart_toEndOf="@+id/textView_speaker_zh_label"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <RadioButton
+                android:id="@+id/speaker_en_male"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:checked="true"
+                android:text="@string/male"
+                android:layout_gravity="center"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/speaker_en_female"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:checked="false"
+                android:text="@string/female"
+                android:layout_gravity="center"
+                android:textSize="18sp" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/item3_linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/item2_linearLayout"
+        tools:layout_editor_absoluteX="16dp">
+
+
+        <TextView
+            android:id="@+id/textView_speak_speed_label"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/setting_dialog_label_margin_start"
+            android:gravity="center"
+            android:text="@string/speak_speed_label"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <SeekBar
+            android:id="@+id/seekBar_speed"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginStart="13dp"
+            android:max="20"
+            android:progress="10" />
+
+        <TextView
+            android:id="@+id/textView_speed_value"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle_layout"
+            android:gravity="center_horizontal"
+            android:text="@string/speak_speed_init_value" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/item4_linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/item3_linearLayout">
+
+
+        <TextView
+            android:id="@+id/textView_speak_volume_label"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/setting_dialog_label_margin_start"
+            android:gravity="center"
+            android:layout_gravity="start"
+            android:text="@string/speak_volume_label"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <SeekBar
+            android:id="@+id/seekBar_volume"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:layout_marginStart="@dimen/setting_dialog_radio_margin_start"
+            android:gravity="center"
+            android:max="20"
+            android:progress="10" />
+
+        <TextView
+            android:id="@+id/textView_volume_value"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="start"
+            android:background="@drawable/circle_layout"
+            android:gravity="center_horizontal"
+            android:text="@string/speak_speed_init_value" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

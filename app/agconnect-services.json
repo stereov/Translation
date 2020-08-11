@@ -1,0 +1,30 @@
+{
+	"agcgw":{
+		"backurl":"connect-drcn.dbankcloud.cn",
+		"url":"connect-drcn.hispace.hicloud.com"
+	},
+	"client":{
+		"cp_id":"260086000063689187",
+		"product_id":"736430079244526094",
+		"client_id":"390447569936843904",
+		"client_secret":"DDB52FF759FCECC37BCB500244DCFC45C5F90C09CFB1737F31533330E3404D2B",
+		"app_id":"102444769",
+		"package_name":"com.lihui.translation",
+		"api_key":"CV8YAqlFN/0FlVUg/Oo3FOJ4YqUBNx4fpJ8AlmP2c4oSgYb7gLhqmb5NoDi+CQ/jPQtO4frZrmxMWBfzZqYRk8tjzFmT"
+	},
+	"service":{
+		"analytics":{
+			"collector_url":"datacollector-drcn.dt.hicloud.com,datacollector-drcn.dt.dbankcloud.cn",
+			"resource_id":"p1",
+			"channel_id":""
+		},
+		"cloudstorage":{
+			"storage_url":"https://agc-storage-drcn.platform.dbankcloud.cn"
+		},
+		"ml":{
+			"mlservice_url":"ml-api-drcn.ai.dbankcloud.com,ml-api-drcn.ai.dbankcloud.cn"
+		}
+	},
+	"region":"CN",
+	"configuration_version":"1.0"
+}

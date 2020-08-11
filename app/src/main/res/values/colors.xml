@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0D86E6</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="circle_outline_color">#CAE1FF</color>
+    <color name="result_outline_color">#EAEAEA</color>
+
+    <color name="result_source_color">#1E90FF</color>
+    <color name="result_target_color">#CCCCCC</color>
+</resources>
