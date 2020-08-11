@@ -8,3 +8,4 @@
   (5) 翻译结果具有回放功能。  
 ## 2 设计方案
 ### 2.1 App流程
+![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
