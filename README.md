@@ -8,4 +8,4 @@
   (5) 翻译结果具有回放功能。  
 ## 2 设计方案
 ### 2.1 App流程
-![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
+https://github.com/stereov/resource/blob/master/HMS%20MLKit/%E6%B5%81%E7%A8%8B.png
